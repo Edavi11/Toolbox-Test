@@ -1,0 +1,238 @@
+{
+	"info": {
+		"_postman_id": "edd51fe8-80d7-4889-84a0-e8dcc43d2e3b",
+		"name": "Toolbox Backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "17763130"
+	},
+	"item": [
+		{
+			"name": "Files Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4522/files/data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4522",
+					"path": [
+						"files",
+						"data"
+					],
+					"query": [
+						{
+							"key": "fileName",
+							"value": "test9.csv",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Good Response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:4522/files/data"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "http://localhost:3000"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2722"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"aa2-sOofQrPeIuE5ARRzR6F9apGHMVk\""
+						},
+						{
+							"key": "cache-control",
+							"value": "max-age=300"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 13 Aug 2024 23:40:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"file\": \"test2.csv\",\n        \"lines\": [\n            {\n                \"text\": \"TJAzGQltdDDLK\",\n                \"number\": 629,\n                \"hex\": \"c8ff021359d7a85f672d4574707d1323\"\n            }\n        ]\n    },\n    {\n        \"file\": \"test3.csv\",\n        \"lines\": [\n            {\n                \"text\": \"LKQfuwTqmGnZtUPoLXHlMd\",\n                \"number\": 8,\n                \"hex\": \"433a630d860284fe609031be42ec8225\"\n            },\n            {\n                \"text\": \"paiwta\",\n                \"number\": 22671956,\n                \"hex\": \"d06a57ac58e39ecf2e47d722b42a1fc2\"\n            },\n            {\n                \"text\": \"U\",\n                \"number\": 11874284,\n                \"hex\": \"7541a972d6d46ae878d2892437ecc26e\"\n            }\n        ]\n    },\n    {\n        \"file\": \"test18.csv\",\n        \"lines\": [\n            {\n                \"text\": \"RhIctwEDmsaGgyaKF\",\n                \"number\": 9213777,\n                \"hex\": \"jz1a54e9e3e2a8b5986bec6ffc8667\"\n            },\n            {\n                \"text\": \"uZPKMBsy\",\n                \"number\": 4,\n                \"hex\": \"jz9dfa84f084373586638f1c170cbc\"\n            },\n            {\n                \"text\": \"LoZVTieGMtqLnxwBYFIFVs\",\n                \"number\": 90074,\n                \"hex\": \"jz56682e48b6a3fb8e10c49df54da2\"\n            },\n            {\n                \"text\": \"tEN\",\n                \"number\": 1182642758,\n                \"hex\": \"jz95af29c3daa21af9d964476e64ae\"\n            },\n            {\n                \"text\": \"gOaNVmAHvlj\",\n                \"number\": 6542,\n                \"hex\": \"jzd5c0a55b0483a3695d02ea32093e\"\n            }\n        ]\n    },\n    {\n        \"file\": \"test6.csv\",\n        \"lines\": [\n            {\n                \"text\": \"yJKk\",\n                \"number\": 103073709,\n                \"hex\": \"47b608780ce92aa54dffbbb347fe4316\"\n            },\n            {\n                \"text\": \"baReRoYHdSDkdFpfdyNakqsDJqUtj\",\n                \"number\": 8209,\n                \"hex\": \"0a250ae0355e8ce6cdcb4d3e4dae69a5\"\n            },\n            {\n                \"text\": \"JGtzjFnZltOOBCwxBextl\",\n                \"number\": 39738232,\n                \"hex\": \"f570817b849edce78595e03b7686afba\"\n            },\n            {\n                \"text\": \"BxjKfIZCpObj\",\n                \"number\": 55696,\n                \"hex\": \"331cd82761352ac51e21e008dde3d85e\"\n            },\n            {\n                \"text\": \"WbdYjkmPujcodhMRjxzSCIeVF\",\n                \"number\": 17362712,\n                \"hex\": \"caa9bb60d867a0d0676b3d859b29fdea\"\n            },\n            {\n                \"text\": \"WGhJPLbpCvIvHJeU\",\n                \"number\": 62464,\n                \"hex\": \"510a256b83054ccbd00283257be574f7\"\n            },\n            {\n                \"text\": \"EqpEDaPkHJeGHDKEJBy\",\n                \"number\": 726,\n                \"hex\": \"d379481e49a13916af6fbfa75a548575\"\n            },\n            {\n                \"text\": \"tRBbOzRtr\",\n                \"number\": 56780,\n                \"hex\": \"f89c58b1654e6258e7f9f8d39d433167\"\n            },\n            {\n                \"text\": \"LLShHftm\",\n                \"number\": 828,\n                \"hex\": \"474973322c28baaf03396a89a0dd4447\"\n            },\n            {\n                \"text\": \"mnCpKrbwNVMB\",\n                \"number\": 42,\n                \"hex\": \"344da08eaa5295f141555b59645c0265\"\n            }\n        ]\n    },\n    {\n        \"file\": \"test9.csv\",\n        \"lines\": [\n            {\n                \"text\": \"tGHPPTEfjSTHewVZOcef\",\n                \"number\": 943198,\n                \"hex\": \"572a968a18899b26be21636c43c5d4ee\"\n            },\n            {\n                \"text\": \"CYOBsYYtWJKslbvqjxoMciAcyCNFp\",\n                \"number\": 9,\n                \"hex\": \"45eb7760e91bdd69e96fef852b84a02f\"\n            },\n            {\n                \"text\": \"zaXWppYxiwpxyRQLFgP\",\n                \"number\": 50339789,\n                \"hex\": \"0ade782ff0b33fc0655d73f4c86d933b\"\n            },\n            {\n                \"text\": \"yxTovotdITuAjEPJIvAJOb\",\n                \"number\": 98,\n                \"hex\": \"4c85f39eef25b15993ba37f5f471ab63\"\n            },\n            {\n                \"text\": \"XF\",\n                \"number\": 75539086,\n                \"hex\": \"c6baeea3f44676af5de732802df4dcce\"\n            },\n            {\n                \"text\": \"VWTPejgvLmBJqPEaE\",\n                \"number\": 955776,\n                \"hex\": \"1d6b75f08839982bd98342da76fc6abb\"\n            },\n            {\n                \"text\": \"anKio\",\n                \"number\": 24,\n                \"hex\": \"173bbce76e3fa95fbaeb369b22c42b32\"\n            },\n            {\n                \"text\": \"FCFxoyPPklKezgUoDybugvJfGH\",\n                \"number\": 48959878,\n                \"hex\": \"7c9f307eaaf47a84a0bcd2cf1f3bbf0c\"\n            },\n            {\n                \"text\": \"ZJfyZQpUbFzWVXZcCf\",\n                \"number\": 257017,\n                \"hex\": \"d015897e155e71566b58c737b6e4546c\"\n            },\n            {\n                \"text\": \"pOnOZuraKTuoDwYQPkpclUsINwYD\",\n                \"number\": 14,\n                \"hex\": \"1895c04b5930c3333a1622adc5206363\"\n            },\n            {\n                \"text\": \"aACQR\",\n                \"number\": 32413,\n                \"hex\": \"cce4d77c9cf3b23907f4886c2afffbef\"\n            },\n            {\n                \"text\": \"ihRvIvjQWTfmGFdv\",\n                \"number\": 8667,\n                \"hex\": \"b64008429266c7ead8ebc8a3ee039f54\"\n            }\n        ]\n    }\n]"
+				},
+				{
+					"name": "Good Response By fileName",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4522/files/data?fileName=test18.csv",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4522",
+							"path": [
+								"files",
+								"data"
+							],
+							"query": [
+								{
+									"key": "fileName",
+									"value": "test18.csv"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "http://localhost:3000"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "461"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1cd-FYa0mjgz8vmvXboehurpgkWNK9g\""
+						},
+						{
+							"key": "cache-control",
+							"value": "max-age=300"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 14 Aug 2024 00:51:56 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"file\": \"test18.csv\",\n        \"lines\": [\n            {\n                \"text\": \"vNhhsdCXaWQzwQmuGjHMxHP\",\n                \"number\": 37165,\n                \"hex\": \"jza9683f3aac13a641d6ddf69caa83\"\n            },\n            {\n                \"text\": \"AhhwBxnU\",\n                \"number\": 33285782,\n                \"hex\": \"jzd6a08c5389e3b2c27769881025ee\"\n            },\n            {\n                \"text\": \"MZvYOojMWQnQtJTRHFsxGaXtwlx\",\n                \"number\": 6374,\n                \"hex\": \"jzae1b2848bf97a8fb2d044f196c4c\"\n            },\n            {\n                \"text\": \"yioIaexQBWLkRLVTeTMQVCCMUo\",\n                \"number\": 87465125,\n                \"hex\": \"jzc07f1253d17006eb87ec369eb2ed\"\n            },\n            {\n                \"text\": \"FcsIEERrVnu\",\n                \"number\": 646,\n                \"hex\": \"jz70f207bfe10806ae2209d6e44f82\"\n            }\n        ]\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Files List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:4522/files/list"
+			},
+			"response": [
+				{
+					"name": "Good Response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:4522/files/list"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "http://localhost:3000"
+						},
+						{
+							"key": "vary",
+							"value": "Origin"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "content-length",
+							"value": "121"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"79-YIEs2/NsDaFuCQCeEm7OGIT0Ep4\""
+						},
+						{
+							"key": "cache-control",
+							"value": "max-age=294"
+						},
+						{
+							"key": "apicache-store",
+							"value": "memory"
+						},
+						{
+							"key": "apicache-version",
+							"value": "1.6.3"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 14 Aug 2024 00:42:55 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"files\": [\n        \"test1.csv\",\n        \"test2.csv\",\n        \"test3.csv\",\n        \"test18.csv\",\n        \"test4.csv\",\n        \"test5.csv\",\n        \"test6.csv\",\n        \"test9.csv\",\n        \"test15.csv\"\n    ]\n}"
+				}
+			]
+		}
+	]
+}

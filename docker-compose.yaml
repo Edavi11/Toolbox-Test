@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    image: toolbox-backend
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    ports:
+      - "4522:4522"
+    networks:
+      - app-network
+
+  frontend:
+    image: toolbox-front
+    build:
+      context: ./Frontend/toolbox-front
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    networks:
+      - app-network
+    depends_on:
+      - backend
+
+networks:
+  app-network:
+    driver: bridge
